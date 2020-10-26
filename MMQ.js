@@ -46,6 +46,7 @@ class MMQ {
 
             if (!collections.find(x => x.name === this.pcoll)) {
                 (await this.db.createCollection(this.pcoll, { capped: true, size: 10000000, max: 100000 }));
+                (await this.db.collection(this.pcoll).insertOne({ channel: 'test', sender: 'test', receiver: 'test', event: 'test' }));
                 (await this.db.collection(this.pcoll).createIndex('channel'));
                 (await this.db.collection(this.pcoll).createIndex('sender'));
                 (await this.db.collection(this.pcoll).createIndex('receiver'));

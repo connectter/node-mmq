@@ -1,6 +1,6 @@
 {
   "name": "@connectter/node-mmq",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "node.js inter-microservice messaging",
   "main": "index.js",
   "scripts": {
