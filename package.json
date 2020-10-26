@@ -1,0 +1,22 @@
+{
+  "name": "@connectter/node-mmq",
+  "version": "1.0.9",
+  "description": "node.js inter-microservice messaging",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/connectter/node-mmq.git"
+  },
+  "devDependencies": {
+    "mongodb": "^3.6.2"
+  }
+}
